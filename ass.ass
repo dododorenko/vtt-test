@@ -1,0 +1,19 @@
+[Script Info]
+Title: ゴテゴテ字幕サンプル
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: GoteGote,MS PGothic,120,&H0000FFFF,&H000000FF,&H00FFFFFF,&H00FF0000,-1,0,0,0,100,100,5,0,1,12,18,2,10,10,50,1
+Style: GoteGoteTitle,MS PGothic,150,&H00FF00FF,&H000000FF,&H0000FFFF,&H00000000,-1,0,0,0,120,120,0,0,1,15,25,5,10,10,100,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.00,GoteGoteTitle,,0,0,0,,{\pos(960,540)\t(\frz360)\fscx150\fscy150\c&H0000FF&\3c&H00FFFF&}超絶ゴテゴテ字幕！！！
+Dialogue: 0,0:00:03.00,0:00:06.00,GoteGote,,0,0,0,,{\move(1920,800,-500,800)\c&HFF00FF&\3c&H00FF00&\shad25\bord20}文字がド派手に横切るぜええええええ！！
+Dialogue: 0,0:00:06.00,0:00:09.00,GoteGote,,0,0,0,,{\pos(960,800)}{\k50}カ{\k50}ラ{\k50}オ{\k50}ケ{\k50}風{\k50}エ{\k50}フ{\k50}ェ{\k50}ク{\k50}ト{\k50}！
+Dialogue: 0,0:00:09.00,0:00:12.00,GoteGote,,0,0,0,,{\pos(960,540)\1a&HFF&\t(0,1000,\1a&H00&\fscx350\fscy350\c&H00FFFF&\3c&HFF00FF&)}迫り来る文字！！！
